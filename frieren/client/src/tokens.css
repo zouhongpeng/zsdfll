@@ -1,0 +1,60 @@
+/* ============================================================
+   葬送的芙莉莲 · 魔法防线 —— 设计令牌（视觉规范）
+   ============================================================ */
+:root {
+  /* 主色调（魔法与夜空） */
+  --abyss: #0A0E1A;        /* 深渊黑 背景/夜空 */
+  --rock-dark: #1A1F2E;    /* 暗岩灰 地形阴影 */
+  --rock-mid: #2D3548;     /* 冷岩灰 地形中间调 / 山脉 */
+  --rock-lite: #4A5568;    /* 浅岩灰 地形亮面 / 防御魔法阵 */
+  --snow: #E8EDF5;         /* 雪顶白 山峰/高光 */
+  --magic-blue: #4A9EFF;   /* 魔法蓝 一般攻击魔法/UI强调 */
+  --demon-purple: #8B5CF6; /* 弑魔紫 弑魔魔法/魔族 */
+  --moon-cyan: #5BC0DE;    /* 苍月青 苍月草/魔力 */
+  --holy-gold: #D4A843;    /* 圣光金 女神魔法/僧侣 */
+
+  /* 地形专用色 */
+  --t-plain: #2A3D2A;      /* 平原 深褐绿 */
+  --t-hill: #4A3D2A;       /* 丘陵 暗黄褐 */
+  --t-mount: #2D3548;      /* 山脉 冷岩灰 */
+  --t-snow: #E8EDF5;       /* 雪原 雪顶白 */
+  --t-water: #1A2A4A;      /* 河流/湖泊 深幽蓝 */
+  --t-forest: #1A2E1A;     /* 森林 暗深绿 */
+  --t-swamp: #2A2A3D;      /* 沼泽 暗紫褐 */
+  --t-canyon: #0F1520;     /* 峡谷 深黑 */
+
+  /* 语义色 */
+  --safe: rgba(91, 192, 222, 0.32);   /* 安全区 魔力范围 */
+  --danger: rgba(229, 62, 62, 0.32);  /* 危险区 */
+  --resource: #5BC0DE;
+  --placeable: #48BB78;
+  --unplaceable: #E53E3E;
+  --enemy: #8B5CF6;
+  --enemy-elite: #E53E3E;
+  --seven-bane: #FFD700;
+
+  /* 字体 */
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+
+  /* 字号 */
+  --fs-title: 24px;
+  --fs-body: 14px;
+  --fs-label: 11px;
+  --fs-resource: 32px;
+  --fs-fortress: 28px;
+
+  /* 圆角 / 间距 */
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 16px;
+  --pad: 14px;
+  --gap: 10px;
+
+  /* 阴影 */
+  --shadow-panel: 0 8px 24px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(91,192,222,0.08);
+  --glow-blue: 0 0 12px rgba(74,158,255,0.35);
+  --glow-cyan: 0 0 12px rgba(91,192,222,0.4);
+  --glow-gold: 0 0 12px rgba(212,168,67,0.4);
+  --glow-purple: 0 0 12px rgba(139,92,246,0.4);
+}
